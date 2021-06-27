@@ -1,0 +1,161 @@
+body {
+    font-family: 'helvetica', 'sans-serif';
+    margin: 0;
+    background-color: black;
+
+}
+
+/* start: global style rules */
+h1 {
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-family: 'Benne';
+    font-size: 20pt;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+    font-family: 'Benne';
+    font-size: 20pt;
+}
+
+p {
+    text-align: center;
+    font-family: 'Benne';
+    font-size: 15pt;
+    color: orange;
+    text-shadow: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+
+/* end: global style rules */
+
+/* start: header styles */
+header {
+    background-color: #131313;
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #FFB320;
+}
+
+.menu {
+    background-color: transparent;
+    border: 1px solid #FFB320;
+    padding: 3px 5px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu .strip {
+    display: block;
+    height: 1px;
+    background-color: #FFB320;
+    margin: 4px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 1em;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: #eee;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #FFB320;
+}
+
+#login-register-button {
+    background-color: #FFB320;
+    color: #131313;
+    border-radius: 20px;
+    padding: 15px 15px;
+    font-size: 10pt;
+    font-weight: 800;
+    text-shadow: black;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#beli {
+    display: flex;
+    flex-direction: row;
+    background-image: url('https://static2.gamerantimages.com/wordpress/wp-content/uploads/2020/10/Watch-Dogs-Assassins-Creed-Crossover-Feature-Image.jpg');
+    height: 800px;
+    width: 1550px;
+    background-position: center;
+    position: relative;
+
+}
+
+.games {
+    background: black;
+    border: black solid 1px;
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+}
+
+.topup {
+    border: black solid 1px;
+    padding: 1rem;
+    text-align: justify, center;
+    flex: 1;
+}
+
+ul,
+li {
+    color: orange;
+}
+
+#container .bank {
+    background: black;
+    border: black solid 1px;
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+    border-width: 30%;
+}
+
+#container .kontak {
+    background: black;
+    border: black solid 1px;
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+    border-width: 30%;
+}
